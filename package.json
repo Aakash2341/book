@@ -1,0 +1,28 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aakash2341/BookStore.git"
+  },
+  "author": "Aakash verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aakash2341/BookStore/issues"
+  },
+  "homepage": "https://github.com/Aakash2341/BookStore#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}
