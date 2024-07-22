@@ -15,6 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
+// Connect to MongoDB
 const connectToMongoDB = async () => {
   try {
     await mongoose.connect(URL, {
